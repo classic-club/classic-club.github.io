@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.top_players {
+    width: 80%;
+    height: 100px;
+    background-color: white;
+    margin-left: 10%;
+    margin-top: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}
+
+.top {
+    width: 33%;
+    display: inline-block;
+    margin: 0;
+    font-size: 20px;
+}
+
+.title {
+    color: #bf811d;
+}
+
+.username {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+    margin-bottom: auto;
+}
